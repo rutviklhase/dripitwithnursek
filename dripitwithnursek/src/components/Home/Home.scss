@@ -1,0 +1,21 @@
+.HomeMain{
+    .container--body{
+      position: relative;
+      height: 100vh;
+      background-image: url(../../assets/Cover2.jpg);
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: white;
+      
+      background-size: 110%;
+      background-repeat: no-repeat;
+      background-position: 0 15vh;
+      background-attachment: fixed;
+      z-index: -1;
+    }
+    
+  }

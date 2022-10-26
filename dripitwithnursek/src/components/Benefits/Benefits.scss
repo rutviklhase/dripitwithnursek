@@ -1,0 +1,74 @@
+*{
+    font-family: Poppins;
+    font-weight: 500;
+  }
+
+.Benefits{
+    padding-left: 10px;
+    padding-top: 110vh;
+    height: 100vh;
+    background-color: grayscale($color: #E8E8E8);
+    z-index: 0;
+    position: relative;
+    
+    .Benefits--Head{
+      position: relative;
+      bottom: 100vh;
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: black;
+      .Benefits--Head--1{
+          font-size: 24px;
+          margin-bottom: 0px;
+          letter-spacing: 1px;
+      }
+    }
+  
+    .Benefits--Grid{
+      padding-left: 15vw;
+      .BenefitsList{
+   
+        position: relative;
+        display: inline-grid;
+        bottom:80vh;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        .Benefit1{
+          max-width: 65vh;
+          padding:15px;
+        }
+        .Benefit2{
+          max-width: 65vh;
+          padding:15px;
+        }
+        .Benefit3{
+          max-width: 65vh;
+          padding:15px;
+        }
+        .Benefit4{
+          max-width: 65vh;
+          padding:15px;
+        }
+      }
+    }
+  
+    .Benefits--Location{
+        color: black;
+      position: relative;
+      bottom: 80vh;
+      align-items: center;
+      display:flex;
+      flex-direction: column;
+  
+      .Benefits--Location--P{
+        color:darkgrey;
+      }
+  
+      .Benefits--Location--P2{
+        padding-top: 5vh;
+        font-size: 20px;
+      }
+    }
+}

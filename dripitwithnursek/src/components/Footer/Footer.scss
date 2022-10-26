@@ -1,0 +1,26 @@
+.FooterContent{
+    padding-top: 5vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    font-size: 12px;
+    *{
+        list-style: none;
+    }
+
+    .ListHeader{
+        font-size: 22px;
+        padding-bottom: 5vh;
+    }
+
+
+}
+.footerlogo{
+    .footerlogofile{
+        max-width: 20vw;
+        padding-left: 40vw;
+        padding-top: 1vh;
+    }
+
+}
