@@ -1,7 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
-import LogoNav from '../../assets/LOGOW.png'
-import Services from "../../pages/Services";
+import LogoNav from '../../assets/LOGOW.png';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './NavBar.scss'
 

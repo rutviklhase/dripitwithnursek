@@ -1,26 +1,30 @@
-.FooterContent{
-    padding-top: 5vh;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+.Footer{    
     position: relative;
-    font-size: 12px;
-    *{
-        list-style: none;
+    bottom: 0px;
+    width: 100vw;
+    .FooterContent{
+        padding-top: 5vh;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 12px;
+        *{
+            list-style: none;
+        }
+    
+        .ListHeader{
+            font-size: 22px;
+            padding-bottom: 5vh;
+        }
+    
+    
     }
-
-    .ListHeader{
-        font-size: 22px;
-        padding-bottom: 5vh;
+    .footerlogo{
+        .footerlogofile{
+            max-width: 20vw;
+            padding-left: 40vw;
+            padding-top: 1vh;
+        }
+    
     }
-
-
-}
-.footerlogo{
-    .footerlogofile{
-        max-width: 20vw;
-        padding-left: 40vw;
-        padding-top: 1vh;
-    }
-
 }

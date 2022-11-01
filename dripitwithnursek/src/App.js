@@ -7,7 +7,7 @@ import Benefits from "./components/Benefits/Benefits";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Services from "./pages/Services";
+import Services from "./components/Services/Services";
 
 
 

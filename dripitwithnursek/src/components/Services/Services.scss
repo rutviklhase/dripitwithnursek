@@ -1,0 +1,34 @@
+
+
+.Services{
+    padding-bottom: 30vh;
+    padding-top:30vh;
+    z-index: 0;
+    color: aliceblue;
+}
+
+
+
+.Card{
+    
+    .CardImage{
+        padding-right: 10vw;
+        padding-top: 20vh;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:20vw;
+    color: antiquewhite;
+    height: 50vh;
+    
+    .carddesc{
+        margin-top: 20vh;
+        background-color: bisque;
+    }
+}
+ button.rec-dot{
+    opacity:0 ;
+  }
+  
