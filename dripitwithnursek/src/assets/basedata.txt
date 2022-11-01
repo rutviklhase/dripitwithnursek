@@ -1,0 +1,17 @@
+[
+	{
+            "img": "Random Name #1",
+	    "price": "250",
+            "description": "Probably"
+        },
+        {
+            "img": "Random Name #2",
+            "price": "250",
+            "description": "Hello World!"
+        },
+        {
+            "img": "Random Name #2",
+            "price": "250",
+            "description": "Hello World!"
+        }
+]

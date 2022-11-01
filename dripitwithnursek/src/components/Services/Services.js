@@ -47,7 +47,7 @@ function Item(props)
     return (
         <div className = "card">
         <Card className = "Card" variant="outlined">
-            <CardMedia className = "CardImage" component="img" image={CardImage} height="100vw"/>
+            <CardMedia className = "CardImage" component="img" image="https://i.imgur.com/HImZn9P.jpeg" height="100vw"/>
             <CardContent>
             <div className="desc">
                  <p className="carddesc">{props.item.description}</p>

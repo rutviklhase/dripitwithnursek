@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Services from "./components/Services/Services";
+import Admin from "./components/Admin/Admin";
 
 
 
@@ -36,6 +37,10 @@ export default function App(){
                         <Route path="/bookservices">
                             <Services/>
                         </Route>
+                        <Route path="/nursekadmin">
+                            <Admin/>
+                        </Route>
+                        
                         
                     </Switch>
                
