@@ -1,23 +1,38 @@
 import { ReactDOM } from "react";
 import React from "react";
+import { useState } from "react";
+import "./Admin.scss"
 
 
-// function getdata(){
-//     const { MongoClient, ServerApiVersion } = require('mongodb');
-//     const uri = "mongodb+srv://<username>:<password>@dripitwithnursek.oydri9l.mongodb.net/?retryWrites=true&w=majority";
-//     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-//     client.connect(err => {
-//     const collection = client.db("test").collection("devices");
-//   // perform actions on the collection object
-//     client.close();
-// }); 
-// s
+
 
 export default function Admin()
 { 
-    
-    return(
-        <h1>Services Menu</h1>
+    async function handleclick()
+    {
+        var img = document.getElementById("img").value;
+        var price = document.getElementById("price").value;
+        var description = document.getElementById("description").value;
+        
+        let result = await fetch("http://localhost:5000/register",{
+            method: 'post',
+            body: JSON.stringify({img, price, description}) ,
+            headers:{
+                'Content-Type' : 'application/json'
+            }
+        });
 
+        result = await result.json();
+        console.log(result);
+    }
+
+    return(
+        <div className="AdminPanel">
+            <h1 classname="addaservice">Add A Service</h1>
+            Image URL : <input id = "img" className="inputBox"/>
+            Price <input id = "price" className="inputBox" type="text"/>
+            Description<input id = "description" className="inputBox" type="text"/>
+            <button onClick={handleclick}>Submit</button>
+         </div>
     )
 }

@@ -6,7 +6,8 @@ import { Paper, Button, Card } from "@mui/material";
 import ReactElasticCarousel from "react-elastic-carousel";
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
-import CardImage from "../../assets/LOGOW.png"
+import CardImage from "../../assets/LOGOW.png";
+import axios from 'axios';
 
 function Example(props)
 {
@@ -33,10 +34,21 @@ function Example(props)
         }
     ]
 
+    const [aitems, setaitems] = React.useState("");
+    React.useEffect(()=>{
+        axios.get("http://localhost:5000/getall").then((response)=>{
+            setaitems(response.data);
+        });
+    },[])
+
+    // console.log(aitems);
+
+
+
     return (
         <ReactElasticCarousel className = "Services" itemsToShow={3}>
             {
-                items.map( (item, i) => <Item key={i} item={item} /> )
+                aitems.map( (item, i) => <Item key={i} item={item} /> )
             }
         </ReactElasticCarousel>
     )
