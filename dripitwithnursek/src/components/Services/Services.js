@@ -41,12 +41,6 @@ function Example(props)
         });
     },[])
 
-    // console.log(aitems);
-    //console.log();
-    //console.log();
-    //console.log();
-
-
 
     return (
         <ReactElasticCarousel className = "Services" itemsToShow={3}>
