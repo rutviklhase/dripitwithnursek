@@ -34,7 +34,7 @@ function Example(props)
         }
     ]
 
-    const [aitems, setaitems] = React.useState("");
+    const [aitems, setaitems] = React.useState([]);
     React.useEffect(()=>{
         axios.get("http://localhost:5000/getall").then((response)=>{
             setaitems(response.data);
@@ -58,18 +58,27 @@ function Example(props)
 function Item(props)
 {
     return (
-        <div className = "card">
-        <Card className = "Card" variant="outlined">
-            <CardMedia className = "CardImage" component="img" image="https://i.imgur.com/HImZn9P.jpeg" height="100vw"/>
-            <CardContent>
-            <div className="desc">
-                 <p className="carddesc">{props.item.description}</p>
+        <div className="ServicesPage">
+            <div className="ServicesPageHeader">
+                Mobile IV Therapy and Medical Service
             </div>
-            </CardContent>
-            
+            <div className = "card">
+            <Card className = "Card" variant="outlined"   style={{backgroundColor: "#DADADA"}}>
+                <CardMedia className = "CardImage" component="img" image={props.item.img}/>
+                <CardContent>
+                <div className="price">
+                        <p className="cardprice">${props.item.price}</p>
+                </div>
+                <div className="desc">
+                        <p className="carddesc">{props.item.description}</p>
+                </div>
+                </CardContent>
+                
 
-        </Card  >
+            </Card  >
+            </div>
         </div>
+
 
     )
 }
