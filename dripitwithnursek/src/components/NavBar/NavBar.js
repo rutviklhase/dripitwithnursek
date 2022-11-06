@@ -13,7 +13,7 @@ export default function NavBar()
             <img src={LogoNav} className="LogoNav"/>
                 <ul className="NavList">
                     <li><a href="/">Home </a></li>
-                    <li>Locations</li>
+                    <li><a href="/location">Locations</a></li>
                     <li><a href="/services">Services</a></li>
                     <li>Book Services</li>
                 </ul>

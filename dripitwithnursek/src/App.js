@@ -9,10 +9,14 @@ import Home from "./components/Home/Home"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Services from "./components/Services/Services";
 import Admin from "./components/Admin/Admin";
+import Location from "./components/Location/Location";
 
 
 
 export default function App(){
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
     return(
         <Router>
             <div>
@@ -36,6 +40,9 @@ export default function App(){
                         </Route>
                         <Route path="/bookservices">
                             <Services/>
+                        </Route>
+                        <Route path="/location">
+                            <Location/>
                         </Route>
                         <Route path="/nursekadmin">
                             <Admin/>
