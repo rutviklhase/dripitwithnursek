@@ -11,28 +11,6 @@ import axios from 'axios';
 
 function Example(props)
 {
-    var items = [
-        {
-            img: "Random Name #1",
-            description: "Probably"
-        },
-        {
-            img: "Random Name #2",
-            description: "Hello World!"
-        },
-        {
-            img: "Random Name #2",
-            description: "Hello World!"
-        },
-        {
-            img: "Random Name #2",
-            description: "Hello World!"
-        },
-        {
-            img: "Random Name #2",
-            description: "Hello World!"
-        }
-    ]
 
     const [aitems, setaitems] = React.useState([]);
     React.useEffect(()=>{
@@ -43,25 +21,31 @@ function Example(props)
 
 
     return (
+        <div className="ServicesPage">
+            <div className="headsubs">
+                <h1>Mobile IV Therapy and Medical Service</h1>
+                <h3>Now offering a variety of Treatments</h3>
+            </div>
+
         <ReactElasticCarousel className = "Services" itemsToShow={3}>
             {
                 aitems.map( (item, i) => <Item key={i} item={item} /> )
             }
         </ReactElasticCarousel>
+        </div>
+        
     )
 }
 
 function Item(props)
 {
     return (
-        <div className="ServicesPage">
-            <div className="ServicesPageHeader">
-                Mobile IV Therapy and Medical Service
-            </div>
+        
+            
             <div className = "card">
-            <Card className = "Card" variant="outlined"   style={{backgroundColor: "#DADADA"}}>
-                <CardMedia className = "CardImage" component="img" image={props.item.img}/>
-                <CardContent>
+            <Card sx = {{ maxWidth : 300, backgroundColor : "black"}}>
+                <CardMedia sx = {{ maxWidth : 300}} className = "CardImage" component="img" image={props.item.img}/>
+                <CardContent sx = {{ color: "white", display:"flex", flexDirection:"column", alignItems:"center"}}>
                 <div className="price">
                         <p className="cardprice">${props.item.price}</p>
                 </div>
@@ -73,7 +57,7 @@ function Item(props)
 
             </Card  >
             </div>
-        </div>
+
 
 
     )
