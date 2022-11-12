@@ -21,7 +21,7 @@ The API is mostly used to pull data from a MongoDB Atlas database and then rende
 3) In order to start the backend Web API use VSCODE's inbuilt Run and Debug button.In case VSCODE is unable to start it properly, navigate to the /servicesapi folder inside your terminal and run `node index.js`.
 
 
-##Screen captures of the website:
+## Screen captures of the website:
 
 ![Screenshot 2022-11-12 174601](https://user-images.githubusercontent.com/102267184/201473547-ea0f1434-e6f9-40c9-a125-f17f21d9cde7.jpg)
 ![Screenshot 2022-11-12 174629](https://user-images.githubusercontent.com/102267184/201473551-91d81f9c-5dbf-47a4-bc40-158f43f3472d.jpg)
