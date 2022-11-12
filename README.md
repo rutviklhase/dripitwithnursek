@@ -6,14 +6,14 @@ A website I made based on client's requirements.
 ## About the website:
 The website was made with client's business of IV Drip Therapy in mind. It has multiple components like the Home Page, Locations Page, Services Page and the Bookings Redirect.
 
-###Technical Overview:
+## Technical Overview:
 It uses a combination of HTML, CSS and JavaScript.
 Under the hood, it uses ReactJS in conjuction to various extensions like MongoDB, ExpressJs, LeafletJs, Axios. 
 
 The front-end uses an API backend which is created using ExpressJS and Axios. 
 The API is mostly used to pull data from a MongoDB Atlas database and then render it out on the Services page.
 
-###Development Environment:
+## Development Environment:
 1) Run `NPM INSTALL` inside the /dripitwithnursek folder.
 
 2) Run `NPM START` inside the /driptitwithnursek folder.
