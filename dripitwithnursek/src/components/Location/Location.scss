@@ -1,0 +1,17 @@
+.LocationPage{
+    height: 45vh;
+    padding-top: 20vh;
+    padding-bottom: 30vh;
+    padding-left: 45vh;
+    z-index: 0;
+    .header{
+        padding-bottom: 1vh;
+        font-size: 28px;
+    }
+    .leaflet-container{
+        width: 50vw;
+        height: 34vw;
+        z-index: 0;
+    }
+}
+

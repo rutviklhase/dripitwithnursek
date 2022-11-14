@@ -1,0 +1,59 @@
+
+
+
+*{
+  font-family: Poppins;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.CoverText
+{
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  right: 1px;
+  top: 25vh;
+  align-items:flex-end;
+  height: 38vh;
+  padding-right: 4vw;
+  letter-spacing: 3px;
+  color: aliceblue;
+  position: fixed;
+  --animate-duration: 5s;
+  
+
+  .CoverTextOne{
+    height: 1px;
+    font-size: 22px;
+  }
+  .CoverTextTwo{
+    font-size: 15px;
+    color:aqua;
+  }
+ }
+
+
+
+
+
+
+// --------------------------Benefits------------------------------
+
+
+
+
+  
+  
+
+// --------------------Footer------------------------
+
+.Footer{
+  background-color: black;
+  height: 60vh;
+  color: white;
+  z-index: 0;
+}
+
+

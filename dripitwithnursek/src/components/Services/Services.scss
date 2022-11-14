@@ -1,0 +1,45 @@
+.ServicesPage{
+    h1{
+        color: black;
+        z-index: 99999;
+        padding-top: 20vh;
+    }
+    .headsubs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.Services{
+    padding-bottom: 10vh;
+    padding-top:10vh;
+    z-index: 0;
+    color: aliceblue;
+    max-width: 70vw;
+    padding-left: 15vw;
+}
+
+.Card{
+    .CardImage{
+
+        width: 90%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:20vw;
+    height: 50vh;
+    
+    .carddesc{
+        color: aliceblue;
+    }
+    .cardprice{
+
+    }
+}
+ button.rec-dot{
+    opacity:0 ;
+  }
+  

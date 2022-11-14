@@ -1,0 +1,1260 @@
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Program[0]
+      Starting Stac.Kafka.Decommission with appsettings.production.json.....
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Consumer[0]
+      Starting Up Kafka Consumer, listening for Cloverleaf.Stac.ProjectDecommissionRequest on messagebroker.genmills.com:9092...
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of DataTuner-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/InrSrcDataLake/repositories/DataTuner/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/InrSrcDataLake/DataTuner.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project DataTuner to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/DataTuner.zip;requestedby=Daniel Bicknell;projectname=DataTuner;repourl=https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project DataTuner to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/DataTuner.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/InrSrcDataLake/repositories/DataTuner?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/e308c9bd-b2af-4072-9acb-c0e2ec561ae8?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner-ProjectDecommission: Successfully marked project DataTuner inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task DataTuner-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of DataTuner.Spark-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/InrSrcDataLake/repositories/DataTuner.Spark/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/InrSrcDataLake/DataTuner.Spark.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner.Spark-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project DataTuner.Spark to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/DataTuner.Spark.zip;requestedby=Daniel Bicknell;projectname=DataTuner.Spark;repourl=https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project DataTuner.Spark to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner.Spark-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/DataTuner.Spark.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: InrSrcDataLake
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/InrSrcDataLake/repositories/DataTuner.Spark?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/ad937be8-8cd1-4d6b-8193-3bee77b6cbbf?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner.Spark-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/InrSrcDataLake/_git/DataTuner.Spark from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTuner.Spark-ProjectDecommission: Successfully marked project DataTuner.Spark inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task DataTuner.Spark-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of DataTunerKafka-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/DataTunerKafka/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/DataTunerKafka.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTunerKafka-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project DataTunerKafka to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/DataTunerKafka.zip;requestedby=Daniel Bicknell;projectname=DataTunerKafka;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project DataTunerKafka to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTunerKafka-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/DataTunerKafka.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/DataTunerKafka?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/4c57b92e-7379-4a46-a22d-d5fc02394553?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTunerKafka-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/DataTunerKafka from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task DataTunerKafka-ProjectDecommission: Successfully marked project DataTunerKafka inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task DataTunerKafka-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_digital_audit_sales-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_digital_audit_sales/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_digital_audit_sales.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_digital_audit_sales-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_digital_audit_sales to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_digital_audit_sales.zip;requestedby=Daniel Bicknell;projectname=ecom_digital_audit_sales;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecom_digital_audit_sales to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_digital_audit_sales-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_digital_audit_sales.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_digital_audit_sales?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/6e54f25d-6e92-4788-a9be-2e6c2bd532b3?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_digital_audit_sales-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_digital_audit_sales from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_digital_audit_sales-ProjectDecommission: Successfully marked project ecom_digital_audit_sales inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecom_digital_audit_sales-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_profitero_modeling-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_profitero_modeling/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_profitero_modeling.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_profitero_modeling-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_profitero_modeling to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_profitero_modeling.zip;requestedby=Daniel Bicknell;projectname=ecom_profitero_modeling;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecom_profitero_modeling to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_profitero_modeling-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_profitero_modeling.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_profitero_modeling?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/e37e7972-e52b-416c-ad18-5039c0393333?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_profitero_modeling-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_profitero_modeling from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_profitero_modeling-ProjectDecommission: Successfully marked project ecom_profitero_modeling inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecom_profitero_modeling-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_search_categorization-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_search_categorization/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_search_categorization.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_search_categorization-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_search_categorization to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_search_categorization.zip;requestedby=Daniel Bicknell;projectname=ecom_search_categorization;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecom_search_categorization to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_search_categorization-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_search_categorization.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_search_categorization?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/64c0fc59-d8c2-42fc-9e3a-f20bd9cc6391?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_search_categorization-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_search_categorization from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_search_categorization-ProjectDecommission: Successfully marked project ecom_search_categorization inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecom_search_categorization-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom-data-science-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom-data-science/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom-data-science.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom-data-science-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom-data-science to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom-data-science.zip;requestedby=Daniel Bicknell;projectname=ecom-data-science;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecom-data-science to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom-data-science-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom-data-science.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom-data-science?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/a383e9cb-0943-48c7-a291-cbc1d55fa6e3?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom-data-science-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom-data-science from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom-data-science-ProjectDecommission: Successfully marked project ecom-data-science inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecom-data-science-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of EcomCommonUtils-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomCommonUtils/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/EcomCommonUtils.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomCommonUtils-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project EcomCommonUtils to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomCommonUtils.zip;requestedby=Daniel Bicknell;projectname=EcomCommonUtils;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project EcomCommonUtils to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomCommonUtils-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomCommonUtils.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomCommonUtils?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/e7e117d3-777f-421c-b6c6-aaf982f6e1ef?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomCommonUtils-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomCommonUtils from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomCommonUtils-ProjectDecommission: Successfully marked project EcomCommonUtils inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task EcomCommonUtils-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of EcomDataProcess-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomDataProcess/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/EcomDataProcess.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataProcess-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project EcomDataProcess to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomDataProcess.zip;requestedby=Daniel Bicknell;projectname=EcomDataProcess;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project EcomDataProcess to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataProcess-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomDataProcess.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomDataProcess?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/9ebf1d32-6799-49b7-b1dc-59f273fba8c1?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataProcess-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataProcess from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataProcess-ProjectDecommission: Successfully marked project EcomDataProcess inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task EcomDataProcess-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of XrefApplication-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/XrefApplication/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/XrefApplication.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task XrefApplication-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project XrefApplication to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/XrefApplication.zip;requestedby=Daniel Bicknell;projectname=XrefApplication;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project XrefApplication to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task XrefApplication-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/XrefApplication.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/XrefApplication?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/9f741532-5036-45a2-8333-414ac32705a4?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task XrefApplication-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/XrefApplication from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task XrefApplication-ProjectDecommission: Successfully marked project XrefApplication inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task XrefApplication-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of EcomDataVirtualEnv-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomDataVirtualEnv/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/EcomDataVirtualEnv.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataVirtualEnv-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project EcomDataVirtualEnv to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomDataVirtualEnv.zip;requestedby=Daniel Bicknell;projectname=EcomDataVirtualEnv;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project EcomDataVirtualEnv to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataVirtualEnv-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomDataVirtualEnv.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomDataVirtualEnv?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/3fa93c02-4126-4ab7-9506-33f940717f0b?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataVirtualEnv-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomDataVirtualEnv from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomDataVirtualEnv-ProjectDecommission: Successfully marked project EcomDataVirtualEnv inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task EcomDataVirtualEnv-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of EcomAlertsSparkToKafka-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomAlertsSparkToKafka/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/EcomAlertsSparkToKafka.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomAlertsSparkToKafka-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project EcomAlertsSparkToKafka to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomAlertsSparkToKafka.zip;requestedby=Daniel Bicknell;projectname=EcomAlertsSparkToKafka;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project EcomAlertsSparkToKafka to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomAlertsSparkToKafka-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/EcomAlertsSparkToKafka.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/EcomAlertsSparkToKafka?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/4cb26de1-420b-4836-9ade-959de717cc3c?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomAlertsSparkToKafka-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/EcomAlertsSparkToKafka from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task EcomAlertsSparkToKafka-ProjectDecommission: Successfully marked project EcomAlertsSparkToKafka inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task EcomAlertsSparkToKafka-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecomm-core-data-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecomm-core-data/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecomm-core-data.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecomm-core-data-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecomm-core-data to Artifactory as requested by : Daniel Bicknell
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecomm-core-data.zip;requestedby=Daniel Bicknell;projectname=ecomm-core-data;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecomm-core-data to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecomm-core-data-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecomm-core-data.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecomm-core-data?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/26f1e886-0d55-4c69-9457-d2b0931a7918?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecomm-core-data-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecomm-core-data from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecomm-core-data-ProjectDecommission: Successfully marked project ecomm-core-data inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecomm-core-data-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of generic_decomm1-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/generic_decomm1/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1 now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/Sandbox/generic_decomm1.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm1-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project generic_decomm1 to Artifactory as requested by : Rutvik Lhase
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/generic_decomm1.zip;requestedby=Rutvik Lhase;projectname=generic_decomm1;repourl=https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project generic_decomm1 to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm1-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1 to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/generic_decomm1.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/generic_decomm1?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/03346a47-077d-4f20-a62e-8484ea1b2f48?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm1-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm1 from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm1-ProjectDecommission: Successfully marked project generic_decomm1 inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task generic_decomm1-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of generic_decomm3-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/generic_decomm3/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3 now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/Sandbox/generic_decomm3.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm3-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project generic_decomm3 to Artifactory as requested by : Rutvik Lhase
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/generic_decomm3.zip;requestedby=Rutvik Lhase;projectname=generic_decomm3;repourl=https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project generic_decomm3 to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm3-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3 to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/generic_decomm3.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/generic_decomm3?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/8bde6630-d915-495e-9382-6cf63283c4e0?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm3-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm3 from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm3-ProjectDecommission: Successfully marked project generic_decomm3 inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task generic_decomm3-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of generic_decomm4-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/generic_decomm4/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4 now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/Sandbox/generic_decomm4.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm4-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project generic_decomm4 to Artifactory as requested by : Rutvik Lhase
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/generic_decomm4.zip;requestedby=Rutvik Lhase;projectname=generic_decomm4;repourl=https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project generic_decomm4 to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm4-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4 to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/generic_decomm4.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/generic_decomm4?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/f9e70d7b-59fc-4bfa-9186-49afeb25dfac?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm4-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/generic_decomm4 from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task generic_decomm4-ProjectDecommission: Successfully marked project generic_decomm4 inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task generic_decomm4-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of azure_test_decomm-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/azure_test_decomm/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/Sandbox/azure_test_decomm.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task azure_test_decomm-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project azure_test_decomm to Artifactory as requested by : Rutvik Lhase
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/azure_test_decomm.zip;requestedby=Rutvik Lhase;projectname=azure_test_decomm;repourl=https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project azure_test_decomm to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task azure_test_decomm-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/azure_test_decomm.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: Sandbox
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/Sandbox/repositories/azure_test_decomm?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/e4a1ccce-4fe5-4f38-b429-51d5bb7e64b9?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task azure_test_decomm-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/Sandbox/_git/azure_test_decomm from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task azure_test_decomm-ProjectDecommission: Successfully marked project azure_test_decomm inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task azure_test_decomm-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_process_tracker-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_process_tracker/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_process_tracker.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_process_tracker-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_process_tracker to Artifactory as requested by : Jake Victor
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_process_tracker.zip;requestedby=Jake Victor;projectname=ecom_process_tracker;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecom_process_tracker to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_process_tracker-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_process_tracker.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_process_tracker?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/3759d381-55f1-4751-86c1-209eeda1b4c9?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_process_tracker-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_process_tracker from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_process_tracker-ProjectDecommission: Successfully marked project ecom_process_tracker inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecom_process_tracker-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_ocado-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_ocado/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_ocado.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_ocado-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_ocado to Artifactory as requested by : Jake Victor
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_ocado.zip;requestedby=Jake Victor;projectname=ecom_ocado;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[41m[30mfail[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API call failed with error message: {
+        "errors" : [ {
+          "status" : 403,
+          "message" : "Not enough permissions to delete/overwrite artifact 'decommission-projects-local:ecom_ocado.zip' (user: 'm1is150' needs DELETE permission)."
+        } ]
+      }
+[41m[30mfail[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      System.Net.WebException: Artifactory REST API call failed with error message: {
+        "errors" : [ {
+          "status" : 403,
+          "message" : "Not enough permissions to delete/overwrite artifact 'decommission-projects-local:ecom_ocado.zip' (user: 'm1is150' needs DELETE permission)."
+        } ]
+      }
+         at Stac.Library.Services.ArtifactoryService.ArchiveProjectFileToArtifactory(String projectName, String sourceControlPath, String projectFilePath, String requestorGid) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Library/Services/ArtifactoryService.cs:line 138
+         at Stac.Kafka.ProjectDecommission.MessageProcessor.ProcessArchiveTask(ProjectDecommissionMessage message, ProjectTask projectTask, Boolean isGitSourceControlType, String targetEntity, String downloadFilePath) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Kafka.ProjectDecommission/MessageProcessor.cs:line 138
+         at Stac.Kafka.ProjectDecommission.MessageProcessor.ProcessProjectDecommission(ProjectDecommissionMessage message, ProjectTask projectTask, Boolean isGitSourceControlType) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Kafka.ProjectDecommission/MessageProcessor.cs:line 119
+         at Stac.Kafka.ProjectDecommission.MessageProcessor.Process(ProjectDecommissionMessage message) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Kafka.ProjectDecommission/MessageProcessor.cs:line 73
+[41m[30mfail[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Ending processing of project task ecom_ocado-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_ocado-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_ocado/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Deleted existing folder at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_ocado.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_ocado-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_ocado to Artifactory as requested by : Jake Victor
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_ocado.zip;requestedby=Jake Victor;projectname=ecom_ocado;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[41m[30mfail[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API call failed with error message: {
+        "errors" : [ {
+          "status" : 403,
+          "message" : "Not enough permissions to delete/overwrite artifact 'decommission-projects-local:ecom_ocado.zip' (user: 'm1is150' needs DELETE permission)."
+        } ]
+      }
+[41m[30mfail[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      System.Net.WebException: Artifactory REST API call failed with error message: {
+        "errors" : [ {
+          "status" : 403,
+          "message" : "Not enough permissions to delete/overwrite artifact 'decommission-projects-local:ecom_ocado.zip' (user: 'm1is150' needs DELETE permission)."
+        } ]
+      }
+         at Stac.Library.Services.ArtifactoryService.ArchiveProjectFileToArtifactory(String projectName, String sourceControlPath, String projectFilePath, String requestorGid) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Library/Services/ArtifactoryService.cs:line 138
+         at Stac.Kafka.ProjectDecommission.MessageProcessor.ProcessArchiveTask(ProjectDecommissionMessage message, ProjectTask projectTask, Boolean isGitSourceControlType, String targetEntity, String downloadFilePath) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Kafka.ProjectDecommission/MessageProcessor.cs:line 138
+         at Stac.Kafka.ProjectDecommission.MessageProcessor.ProcessProjectDecommission(ProjectDecommissionMessage message, ProjectTask projectTask, Boolean isGitSourceControlType) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Kafka.ProjectDecommission/MessageProcessor.cs:line 119
+         at Stac.Kafka.ProjectDecommission.MessageProcessor.Process(ProjectDecommissionMessage message) in /home/jenkins/agent/workspace/Cloverleaf_Stac_master/src/Stac.Kafka.ProjectDecommission/MessageProcessor.cs:line 73
+[41m[30mfail[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Ending processing of project task ecom_ocado-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Starting processing of ecom_ocado-ProjectDecommission
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_ocado/items?api-version=1.0&scopePath=/
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Downloading git repository https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado now....
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Deleted existing folder at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.DirectoryHelper[0]
+      Created directory at /tmp/ProjectDecommission/Git/eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Utilities.FileHelper[0]
+      File download completed at /tmp/ProjectDecommission/Git/eCommerce/ecom_ocado.zip
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.MessageProcessor[0]
+      Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_ocado-ProjectDecommission: Successfully downloaded git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Archiving project ecom_ocado to Artifactory as requested by : Jake Victor
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Artifactory REST API Url: https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_ocado.zip;requestedby=Jake Victor;projectname=ecom_ocado;repourl=https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.ArtifactoryService[0]
+      Successfully archived project ecom_ocado to Artifactory
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_ocado-ProjectDecommission: Successfully archived git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado to Artifactory at https://artifactory.genmills.com/artifactory/decommission-projects-local/ecom_ocado.zip
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Git repository url - https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Project Name from repository url: eCommerce
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Parsed Git Repository Name from repository url: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/eCommerce/repositories/ecom_ocado?api-version=1.0
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully retrieved git repo metadata: ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Azure DevOps REST API Url: https://dev.azure.com/GeneralMills/_apis/git/repositories/ee29674d-0ece-4137-8a9c-deece8fa3585?api-version=5.1
+[40m[32minfo[39m[22m[49m: Stac.Library.Services.AzureDevopsService[0]
+      Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_ocado-ProjectDecommission: Successfully deleted git repository: https://dev.azure.com/GeneralMills/eCommerce/_git/ecom_ocado from Azure Devops
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Project Task ecom_ocado-ProjectDecommission: Successfully marked project ecom_ocado inactive in Stac
+[40m[32minfo[39m[22m[49m: Stac.Kafka.ProjectDecommission.Services.StacService[0]
+      Successfully completed project task ecom_ocado-ProjectDecommission
