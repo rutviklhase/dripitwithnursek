@@ -1,7 +1,7 @@
 # DriptItWithNurseK
 ![LOGOW](https://user-images.githubusercontent.com/102267184/201473569-334231c6-7d10-463a-87cf-f144aadd7be1.png)
 
-A website I made based on client's requirements. 
+
 
 ## About the website:
 The website was made with client's business of IV Drip Therapy in mind. It has multiple components like the Home Page, Locations Page, Services Page and the Bookings Redirect.
